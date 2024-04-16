@@ -24,23 +24,29 @@ Before you start using gpt-shell, you need to set up a few things:
    ```
 
 2. **Install dependencies**:
-This project requires openai Python library. Install it using pip:
-`pip install openai`
+   ```
+   pip install openai
+   ```
 
 3. **Set up the environment variable:**
-Create a .env file in the project directory and add your OpenAI API key:
-`OPENAI_API_KEY=your_openai_api_key_here`
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
 
 Replace your_openai_api_key_here with your actual OpenAI API key.
 
 ## Usage
 To start a session with gpt-shell, run the following command in your terminal:
-`python gpt.py "Your initial prompt here"`
+```
+python gpt.py "Your initial prompt here"
+```
 
 Keep the session going by providing further inputs. To end the session, simply press Enter without typing anything.
 
 ## Example
 Here's how you can use gpt-shell:
-`python gpt.py "Create a Python function to reverse a string"`
+```
+python gpt.py "Create a Python function to reverse a string"
+```
 
 Follow the instructions on the screen to continue the interaction or to end it.

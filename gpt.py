@@ -33,6 +33,7 @@ def main():
     # Creating a loop so the chat does not end after the first prompt
     user_input = input("You: ")
     while user_input != "": #app will exit if you only press enter
+        prompt = user_input
         ask_gpt(prompt, chat_history, SYSTEM_MESSAGE)
         user_input = input("You: ")
 
